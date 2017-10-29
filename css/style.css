@@ -1,0 +1,474 @@
+/*font-family: 'Quicksand', sans-serif;*/
+
+/*font-family: 'Droid Sans', sans-serif;*/
+
+@font-face {
+    font-family: ardecode;
+    src: url(../fonts/ARDECODE.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+#banner {
+    background-color: #00ccff;
+    min-height: 412px;
+    position: relative;
+}
+
+
+#title {
+    font-size: 60pt;
+    font-weight: bold;
+    font-family: Droid sans;
+}
+
+#55 {}
+
+#package {
+    min-height: 552px;
+    background: gray url(../images/ba.jpg);
+}
+
+#book {
+    font-family: ardecode;
+    color: #2a2e33;
+    font-size: 60pt;
+}
+
+#roomtype {
+    background: aliceblue url(../images/background.jpg);
+    min-height: 822px;
+}
+
+#promotion {
+    background-color: #e7cb2c;
+    height: 178px;
+    position: relative;
+}
+
+#footer {
+    background-color: #333333;
+    color: white;
+    min-height:320px
+}
+.header_wrapper {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2a2e33;
+    min-height: 120px;
+    z-index: 2;
+}
+
+.logo {
+    width: 365px;
+    float: left;
+    margin: 35px;
+    margin-left: 165px;
+}
+
+.subtitle {
+    width: 150px;
+    margin-top: 4px;
+    float: right;
+    color: white;
+    font-family: Quicksand;
+    font-size: 14px;
+}
+
+.menubar {
+    width: 674px;
+    float: right;
+    color: white;
+}
+
+.menubar ul {
+    list-style: none;
+}
+
+.menubar ul li {
+    display: block;
+    float: left;
+}
+
+.menubar ul li a {
+    font-family: Droid sans;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 39px 17.4px;
+    transition:
+}
+
+.menubar ul li a:hover {
+    background-color: #1e2329;
+    padding-top: 37px;
+    border-top: 2px solid gold;
+    color: gold;
+    padding: top;
+}
+
+.bannertext {
+    color: white;
+    text-align: center;
+    margin top: unset;
+    padding-top: 80px;
+    width: 774px;
+    margin: 0 auto;
+}
+
+.welcomeText {
+    font-size: 30pt;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+
+.facilites {
+    font-size: 30pt;
+    font-family: Quicksand;
+}
+
+.bannerform {
+    width: 1020px;
+    height: 101px;
+    background-color: #2a2e33;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -46px;
+    /* left: 10%; */
+    left: 0;
+    right: 0;
+}s
+
+.bannerform label {
+    font-family: Quicksand;
+    font-size: 18pt;
+    color: #ffd700;
+    display: block;
+    margin-left: 8px;
+}
+.bannerform : after{
+    content:'';
+    height:100px;
+    width:80%;
+    display:block;
+    box-shadow:0px 2px 100px gray;
+    margin-left:10%;
+    position:absolute;
+    z-index:-1;
+    bottom: 0;}
+
+.formpart {
+    width: 25%;
+    float: left;
+    margin-left: 17px;
+    margin-top: 5px;
+}
+.formpart select{
+    width: 241px;
+    height: 44px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 11px 37px;
+    font-family: Quicksand;
+    font-size: 14px;
+    background: url(../images/down.png);
+    background-color: white;
+    background-position: 10%;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.formpart1 {
+    width: 20%;
+    float: left;
+    margin-top: 33px;
+}
+.formpart1 button{
+    height: 45px;
+    width:178px;
+    border-radius:10px;
+    border:none;
+    font-family:Droid sans;
+    font-weight:bold;
+    font-size:15px;
+    background-color:gold;
+}
+.singleform {
+    width: 182px;
+    height: 21px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 11px 37px;
+    background: url(../images/calender.png);
+    background-color: white;
+    background-position: 10%;
+    background-repeat: no-repeat;
+}
+.input{
+    border: none;
+    margin: 0px 5px;
+    font-family: Quicksand;
+    font-size: 16px;
+}
+.package_wrapperr{
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.packagetext {
+    padding-top: 88px;
+    text-align: center;
+    width: 1165px;
+    height: 150px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.bookcaption {
+    color: #2a2e33;
+    font-family: quicksand;
+    font-size: 14pt;
+}
+.packagewrapper{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 48px;
+    min-height: 270px;
+}
+
+.leftslider {
+    width: 56px;
+    float: left;
+    margin-top: 70px;
+}
+
+.packageimg {
+    width: 848px;
+    height: 240px;
+    float: left;
+    
+    margin-left: 109px;
+   
+    padding-right: -304px;
+}
+
+.singleimg {
+    background-color: white;
+    height: 210px;
+    width: 210px;
+    float: left;
+    margin-left: 26px;
+    margin-top: 9px;
+    border-radius: 116px;
+    border: 2px solid #2a2e33;
+}
+
+.rightslider {
+    width: 56px;
+    float: right;
+    margin-top: 70px;
+}
+
+.roomtypetext {
+    padding-top: 35px;
+    text-align: center;
+    font-family: ardecode;
+    font-size: 60pt;
+    color: #2a2e33;
+}
+.roomtypewrapper{
+    width: 88%;
+    margin: 0 auto;
+}
+.roomtype_wrapper{
+    width: 1350px;
+    margin: 0 auto;
+}
+.singleroom {
+    width: 29%;
+    float: left;
+    margin: 7px 2.1%;
+}
+.singleroom img{
+    /* max-width: 100%; */
+}
+
+.singleroomcontent  p {
+    font-family:Quicksand;
+    font-size:12pt;
+    display:Block;
+    text-align:center}
+.singleroomcontent  span{
+    font-family: Quicksand;
+    font-size: 19pt;
+    text-align: center;
+    display: block;
+    color: #2a2e33;
+}
+
+
+
+.icon {
+    margin: 5px 25%;
+    width: 50%;
+    
+}
+.promotion_wrapper{
+    width: 1350px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.promotiontext {
+    width: 900px;
+    height: 120px;
+    color: white;
+    float: left;
+    text-align: center;
+    margin-top: 55px;
+}
+.promotiontext h1{
+    font-family: Quicksand;
+    font-size: 31pt;
+    font-weight: normal;
+}
+.promotiontext span{
+    font-size: 13pt;
+    font-family: Quicksand;
+}
+
+.promotionimg {
+    position: absolute;
+    /* left: 159px; */
+    right: 60px;
+    bottom: -12px;
+}
+
+.footerwraper {
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 26px;
+    width: 1175px;
+}
+.footerwraper h2 {
+    margin-bottom:15px
+}
+
+.firstfooter {
+    width: 240px;
+    float: left;
+    margin-right: 20px;
+}
+.firstfooter h2{
+    font-family:Droid sans;
+    font-size:18pt;
+}
+.firstfooter p {
+    font-family:Quicksand;
+    display:block;
+    /* margin:5px; */
+    font-size:12pt;
+}
+
+.secondfooter {
+    width: 236px;
+    float:left;
+    margin-right: 20px;
+}
+.secondfooter h2 {
+     font-family:Droid sans;
+     font-size:18pt;
+}
+.secondfooter p {
+    font-family:Quicksand;
+    font-weight:100;
+    font-size:12pt;
+
+}
+.secondfooter  span{
+font-family:Quicksand;
+font-size:10pt;
+color:gold;
+}
+
+
+.third.footer {
+    width: 450px;
+    height: 180px;
+    float: left;
+    margin-right: 20px;
+}
+.third.footer h2{
+    font-family: Droid sans;
+    font-size: 18pt;
+}
+.third.footer p {
+    font-family: Quicksand;
+    font-size: 12pt;
+}
+.third.footer button {
+    height: 30px;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    background-color: gold;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 41px;
+}
+
+.thfooter {
+    width: 180px;
+    float: left;
+}
+.thfooter h2{
+    font-family: Droid sans;
+    font-size: 18pt;
+}
+
+
+.login {
+    
+}
+.login label{
+    color: white;
+    font-family:Quicksand;
+    font-size:12pt;
+    padding: 5px 0px;
+    display:block;
+}
+.thfooter button{
+    height: 30px;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    background-color: gold;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.log {
+    width: 193px;
+    background-color: transparent;
+    border: 1px solid #232323;
+    border-radius: 10px;
+    height: 31px;
+}
+.lastdiv{
+    height: 20px;
+    background-color:#1f1f1f;
+    
+}
